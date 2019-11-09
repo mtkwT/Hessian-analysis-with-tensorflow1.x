@@ -109,13 +109,13 @@ class TrainCifar10CNN_SGD(object):
             cross_entropy_values_1D = []
 
             for c2 in [(_ / 100) for _ in range(-30, 31, 5)]:
-                add_updates_freeze = optimizer.add_update_freeze(c1, v1, c2, v2)
+                add_updates_freeze = optimizer.add_eigvec_update(c1, v1, c2, v2)
                 update = tf.group(*add_updates_freeze)
                 self.sess.run(update, feed_dict=feed)
                 cl_value = self.sess.run(self.cost, feed_dict=feed)
                 cross_entropy_values_1D.append(cl_value)
                 # TODO: modify numerical error
-                sub_updates_freeze = optimizer.sub_update_freeze(c1, v1, c2, v2)
+                sub_updates_freeze = optimizer.sub_eigvec_update(c1, v1, c2, v2)
                 update = tf.group(*sub_updates_freeze)
                 self.sess.run(update, feed_dict=feed)
             
