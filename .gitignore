@@ -1,3 +1,4 @@
-results/
+results/CIFAR10*
 __pycache__/
 .ipynb_checkpoints/
+.gitattributes
