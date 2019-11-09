@@ -1,5 +1,10 @@
-tensorflow-gpu == 1.14.0
+jupyter
+matplotlib
+mpl_toolkits
+notebook
 numpy == 1.16.4
 scipy
-tqdm
 scikit-learn
+seaborn
+tensorflow-gpu == 1.14.0
+tqdm
