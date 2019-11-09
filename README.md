@@ -2,7 +2,8 @@
 ## Description
 This is the source code of an additional experiment in the following paper.
 
-paper: https://arxiv.org/pdf/1802.08241.pdf
+paper: https://arxiv.org/pdf/1802.08241.pdf 
+Implementation by the author: https://github.com/amirgholami/HessianFlow 
 
 I will upload the slide deck of DLHacks later.
 
@@ -12,7 +13,7 @@ I will upload the slide deck of DLHacks later.
 
 ## Experiment
 
-## plot 3D surface local landscape
+### plot 3D surface local landscape
 
 <table border="0">
 <tr>
