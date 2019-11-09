@@ -16,18 +16,18 @@ I will upload the slide deck of DLHacks later.
 
 <table border="0">
 <tr>
-<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize64.png" width="200" height="140"></td>
-<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize128.png" width="200" height="140"></td>
+<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize64.png" width="300" height="240"></td>
+<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize128.png" width="300" height="240"></td>
 </tr>
 </table>
 <table border="0">
 <tr>
-<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize256.png" width="200" height="140"></td>
-<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize512.png" width="200" height="140"></td>
+<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize256.png" width="300" height="240"></td>
+<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize512.png" width="300" height="240"></td>
 </tr>
 </table>
 <tr>
-<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize1024.png" width="200" height="140"></td>
+<td><img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/cifar10_sgd_train_loss_surface_batchsize1024.png" width="300" height="240"></td>
 </tr>
 </table>
 
