@@ -14,6 +14,7 @@ I will upload the slide deck of DLHacks later.
 
 ## Experiment
 In the paper, they use The Hesse matrix w.r.t input, but this repository uses the Hesse matrix w.r.t weight parameters for analysis. As in the paper, I conducted the experiment using CIFAR-10 for image classification. The model architecture is as follows.
+
 |Dataset|Model architecture|
 |:---|:---|
 |CIFAR-10|Conv(3,3,64) - Conv(3,3,64) - MaxPool(2,2) - Conv(3,3,128) - Conv(3,3,128) - MaxPool(2,2) - Conv(3,3,256) - Conv(3,3,256) - MaxPool(2,2) - Dense(1024) - Dense(256) - Softmax(10)|
