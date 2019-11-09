@@ -19,19 +19,17 @@ class BaseOptimizer(object):
         self.hessian = tf.reshape(self.hessian, shape=shape)
         return self.hessian
     
-    def add_update_freeze(self, c1, v1, c2, v2, layer_num=-2): 
-        self.updates_freeze = []
-        with tf.control_dependencies(self.updates_freeze):
-            self.updates_freeze.append(self.params[layer_num].assign_add(c1*v1+c2*v2)) 
-        
-        return self.updates_freeze
+    def add_eigvec_update(self, c1, v1, c2, v2, layer_num=-2): 
+        self.updates = []
+        with tf.control_dependencies(self.updates):
+            self.updates.append(self.params[layer_num].assign_add(c1*v1+c2*v2)) 
+        return self.updates
 
-    def sub_update_freeze(self, c1, v1, c2, v2, layer_num=-2): 
-        self.updates_freeze = []
-        with tf.control_dependencies(self.updates_freeze):
-            self.updates_freeze.append(self.params[layer_num].assign_sub(c1*v1+c2*v2))
-        
-        return self.updates_freeze
+    def sub_eigvec_update(self, c1, v1, c2, v2, layer_num=-2): 
+        self.updates = []
+        with tf.control_dependencies(self.updates):
+            self.updates.append(self.params[layer_num].assign_sub(c1*v1+c2*v2))
+        return self.updates
 
 class SGD(BaseOptimizer):
     def __init__(self, cost, params, lr=0.01, momentum=0.9):
