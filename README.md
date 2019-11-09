@@ -2,8 +2,9 @@
 ## Description
 This is the source code of an additional experiment in the following paper.
 
-paper: https://arxiv.org/pdf/1802.08241.pdf 
-Implementation by the author: https://github.com/amirgholami/HessianFlow 
+paper: https://arxiv.org/pdf/1802.08241.pdf
+
+Implementation by the author: https://github.com/amirgholami/HessianFlow
 
 I will upload the slide deck of DLHacks later.
 
