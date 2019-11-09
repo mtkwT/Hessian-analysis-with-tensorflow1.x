@@ -1,0 +1,5 @@
+tensorflow-gpu == 1.14.0
+numpy == 1.16.4
+scipy
+tqdm
+scikit-learn
