@@ -17,7 +17,7 @@ In the paper, they use The Hesse matrix w.r.t input, but this repository uses th
 
 |Dataset|Model architecture|
 |:---|:---|
-|CIFAR-10|Conv(3,3,64) - Conv(3,3,64) - MaxPool(2,2) - Conv(3,3,128) - Conv(3,3,128) - MaxPool(2,2) - Conv(3,3,256) - Conv(3,3,256) - MaxPool(2,2) - Dense(1024) - Dense(256) - Softmax(10)|
+|CIFAR-10|Conv(3,3,64) - Conv(3,3,64) - MaxPool(2,2) - Conv(3,3,128) - Conv(3,3,128) - MaxPool(2,2) - Dense(256) - Dense(256) - Softmax(10)|
 
 ### plot 3D surface local landscape
 
