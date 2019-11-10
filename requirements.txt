@@ -1,6 +1,5 @@
 jupyter
 matplotlib
-mpl_toolkits
 notebook
 numpy == 1.16.4
 scipy
