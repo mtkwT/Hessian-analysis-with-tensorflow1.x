@@ -186,7 +186,7 @@ class TrainCifar10CNN_SGD(object):
             self.save_result(save_list=save_list, reslut_name=reslut_name)
 
 def main():
-    batch_size_list = [64, 128, 256, 512, 1024, 2048]
+    batch_size_list = [128, 256, 512, 1024]
     for batch_size in batch_size_list:
         model = TrainCifar10CNN_SGD(
             learning_rate=0.01,
