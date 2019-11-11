@@ -27,11 +27,11 @@ $ UID=${UID} GID=${GID} docker-compose run --rm app /bin/bash
 ```
 
 ## Results
-### The top-20 eigenvalues of the Hessian matrix for the CIFAR-10 dataset at the points of convergence reached by Momentum SGD
+#### The top-20 eigenvalues of the Hessian matrix for the CIFAR-10 dataset at the points of convergence reached by Momentum SGD.
 
 <img src="https://github.com/mtkwT/Hessian-based-analysis-tensorflow/blob/master/notebooks/hessian_spectral.png" width="550" height="420">
 
-### The local training loss landscapes at the points of convergence reached by some minibatch SGD
+#### The local training loss landscapes at the points of convergence reached by Momentum SGD.
 
 <table border="0">
 <tr>
