@@ -6,7 +6,7 @@ paper: https://arxiv.org/pdf/1802.08241.pdf
 
 Implementation by the author: https://github.com/amirgholami/HessianFlow
 
-I will upload the slide deck of DLHacks later.
+speakerdeck: https://speakerdeck.com/mtkwt/hessian-based-analysis
 
 ## Docker version
 - Docker version 19.03.2
