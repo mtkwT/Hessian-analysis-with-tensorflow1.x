@@ -5,5 +5,5 @@ numpy == 1.16.4
 scipy
 scikit-learn
 seaborn
-tensorflow-gpu == 1.15.4
+tensorflow-gpu == 2.6.4
 tqdm
